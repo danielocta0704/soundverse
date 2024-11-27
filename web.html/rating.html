@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate a Song - SoundVerse</title>
+    <link rel="stylesheet" href="rate.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SoundVerse</div>
+        <div class="profile-navbar">
+            <div class="profile">
+                <img src="https://via.placeholder.com/40" alt="Profile Picture">
+                <span>Username</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">back</a></li>
+                    <li><a href="mystats.html"></a></li>
+                    <li><a href="landing.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Rate a Song</h1>
+
+        <div class="song1">
+            <h2>Song Title: "Imagine" by John Lennon</h2>
+        </div>
+
+        <div class="audio-player">
+            <iframe style="border-radius:4px" src="https://open.spotify.com/embed/track/7pKfPomDEeI4TPT6EOYjn9?utm_source=generator&theme=0" width="50%" height="171" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+        </div>
+
+        <div class="song2">
+            <h2>Song Title: "Selfless" by The Strokes</h2>
+        </div>
+
+        <div class="audio-player">
+            <iframe style="border-radius:4px" src="https://open.spotify.com/embed/track/2t0wwvR15fc3K1ey8OiOaN?utm_source=generator" width="50%" height="171" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+
+        <div class="rating2">
+            <span class="star2" data-value="1">&#9733;</span>
+            <span class="star2" data-value="2">&#9733;</span>
+            <span class="star2" data-value="3">&#9733;</span>
+            <span class="star2" data-value="4">&#9733;</span>
+            <span class="star2" data-value="5">&#9733;</span>
+        </div>
+
+        <button id="submitRating">Submit Rating</button>
+    </main>
+
+    <script src="rate.js"></script>
+</body>
+</html>

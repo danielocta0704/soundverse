@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #121212;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.profile-navbar .profile {
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-navbar .profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile-navbar .profile span {
+    font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+nav ul li a:hover {
+    color: #06ff5d;
+}
+
+main {
+    margin-top: 100px;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.song {
+    margin: 20px 0;
+}
+
+.rating, .rating2 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.star, .star2 {
+    cursor: pointer;
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+
+.star:hover, .star.active, .star2:hover, .star2.active {
+    color: #1db954;
+}
+
+button {
+    background-color: #1db954;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #18a347;
+}
+
+audio {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
